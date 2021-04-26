@@ -1,0 +1,17 @@
+{
+    "version": "1.1.0",
+    "author": {"name":"Mohamed Kassem","email":"moh.aymang@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/ScatterTaxiNYC1112.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"ScatterTaxiNYC","displayName":"ScatterTaxiNYC","guid":"ScatterTaxiNYC1112","visualClassName":"Visual","version":"1.1.0","description":"Costum R visual for datacamp course","supportUrl":"https://www.linkedin.com/in/m-ayman-kassem-1b411211a/","gitHubUrl":"https://github.com/Mkassem16"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
