@@ -1,0 +1,1 @@
+https://storage.googleapis.com/powerbi_datacamp/nyc_taxi_db.csv
