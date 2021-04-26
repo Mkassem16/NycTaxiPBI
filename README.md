@@ -4,3 +4,5 @@
 
 ## Filtering 
 ![Alt Text](Animation2.gif)
+![Alt Text](Animation3.gif)
+
