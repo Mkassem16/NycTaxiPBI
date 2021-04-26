@@ -3,7 +3,7 @@
 ### This dashboard is intended for educational puposes & preparing Data analysts for Exam DA-100: Analyzing Data with Microsoft Power BI      
 
 
-[Data Catalog](data/data_dictionary_trip_records_yellow.pdf)
+* [Data Catalog](data/data_dictionary_trip_records_yellow.pdf)
 
 ## R interactive Costum visual 
 ![Alt Text](Animation6.gif)
