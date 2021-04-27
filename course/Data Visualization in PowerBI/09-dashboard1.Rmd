@@ -1,0 +1,155 @@
+# Utilizing PowerBI native visualizations
+
+Clicking on any of the native visuals from the visualization pane will draw the visual on the report page.
+The lower half of the visualization pane will be divided into 3 sections      
+**Fields**: (where you can drag and drop data to the right dimension)     
+**Format**: (to change the look and add conditional formatting)      
+**Analytics**: (extra set of tools that vary according to the type of the visual)      
+
+## NYC TLC Dashboard design:
+* Monthly dynamic view that can be filtered to weekly and daily views.      
+
+
+Header should contain:
+
++ Logo 
++ Date controls  
++ Navigation buttons.       
+
+Body should contain:          
+
++ The requested 2 KPI tracking visuals. (conditional formatting)     
++ Revenue breakdown     
++ Daily performance chart     
++ Timings chart     
++ Status updates       
++ Explaining relation between distance and duration and Fare. (R & Python visuals)    
+
+## Building our dashboard:
+### Header:
+
+#### 3 status update cards
+
+**Format** : 
+
+Will be the same for all of them, only title is changing.     
+You can create one with the right format then copy and paste it.      
+You can use the format painter to apply the same format to multiple visuals.     
+ 
+**_General_**        
+_Width_: 200     
+_Height_: 116
+ 
+**_Data label_**   
+_Color_: #666666        
+_Display units_: None    
+_Value decimal_: 0    
+_Text size_: 30         
+_Font family_: Segoe UI Light 
+
+
+**_Title_**   
+_Font color_: #666666        
+_Background color_: No fill        
+_Text size_: 15     
+_Alignment_: Center       
+_font family_: Segoe UI Light  
+
+
+**_Background_**   
+_Color_: #666666           
+_Transparency_: 84%   
+
+
+**_Border_**   
+_Color_: #CCCCCC             
+_Radius_: 4       
+
+
+**_Shadow_**   
+_Color_: #B3B3B3    
+_Shadow position_: Outside              
+_Preset_: Center        
+
+
+
+##### Total fare Amount (Card 1)     
+_Title_: Total fare     
+**Field**: nyc_taxi_21[Fare] -> sum
+
+
+##### Pick ups Count (Card 2)   
+_Title_: Pick ups     
+**Field**: nyc_taxi_21[pickup_location] -> count
+
+
+##### Passengers Count (Card 3)      
+_Title_: Passengers      
+**Field**: nyc_taxi_21[passenger_count] -> sum     
+
+
+#### 1 Slicer  
+After Clicking on the slicer visual, click on the small arrow on the  right top corner of the visual and choose droplist.    
+
+**Format** :    
+**_General_**    
+_Outline color_: #888888     
+_Outline weight_: 1    
+_Width_: 265     
+_Height_: 115
+
+
+**_Selection Control_**      
+_Multi-select with CTRL_: Off       
+
+
+**_Data label_**   
+_Color_: #666666        
+_Display units_: None    
+_Value decimal_: 0    
+_Text size_: 30         
+_Font family_: Segoe UI Light 
+
+
+**_Title_**   
+_Font color_: #666666        
+_Background color_: No fill        
+_Text size_: 15     
+_Alignment_: Center       
+_font family_: Segoe UI Light  
+
+
+**_Background_**   
+_Color_: #666666           
+_Transparency_: 84%   
+
+
+**_Border_**   
+_Color_: #CCCCCC             
+_Radius_: 4       
+
+
+**_Shadow_**   
+_Color_: #B3B3B3    
+_Shadow position_: Outside              
+_Preset_: Center        
+
+
+We need to be able to group the data by the month name.
+To achieve this we need to create a Data group.
+Creating Data group can be achieved by selecting the needed column to be grouped from the Fields pane, then on the top tool bar new options will appear under name Column tools. Select Data groups and choose New data group.
+ 
+Name: Months     
+Bin size: 1  - Months     
+
+**Fields**:     
+**Field**: [Calendar]Months     
+**Field**: [Calendar]Week of Month_name
+
+    
+#### 1 Image (Logo)    
+#### 2 Images (Navigation)    
+#### 2 Shapes (Navigation)    
+
+
+### Body:

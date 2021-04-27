@@ -1,0 +1,21 @@
+# Report page 
+
+We can start customizing report page by clicking on the format icon of the Visualization pane without choosing any visual.
+
+![format](assets/page_1.png)
+
+**Options include:**
+
+## information
+
+
+## Size
+
+
+## Background
+
+
+## Alignment
+
+
+## Wallpaper

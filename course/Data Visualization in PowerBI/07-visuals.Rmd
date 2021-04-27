@@ -1,0 +1,27 @@
+# Visualization types
+
+## Comparison
+
+
+## Change over time
+
+
+## Ranking
+
+
+## Spatial
+
+
+## Part-to-whole
+
+
+## Distribution
+
+
+## Correlation
+
+
+## Single
+
+
+## Filter & Slicer

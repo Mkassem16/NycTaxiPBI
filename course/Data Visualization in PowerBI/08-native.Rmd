@@ -1,0 +1,27 @@
+# PowerBI native visuals
+
+![native](assets/native1.png)
+
+PowerBi offers a group of native visualizations that we will build most of the dashboard using them. 
+
+## Comparison visuals
+### Comparing Numerical values of 1 or more categories
+#### Clustered bar/Column chart  
+### Comparing Numerical values of 1 or more categories and Comparing their totals
+#### Stacked bar/Column chart  
+
+### Comparing Percentages
+#### 100% Stacked Bar/Coumn chart  
+
+
+
+## Change over time visuals
+### Displaying Numerical values of 1 or more categories over time dimension
+#### Line/Area chart
+### Displaying Numerical values of 1 or more categories over time dimension with focus on Ranking and changes 
+#### Ribbon chart
+### Displaying Numerical values of 1 or more categories over time dimension with focus on their total
+
+## Combo charts
+Adding time dimension to comparison visuals or Adding categorical values to change over time visuals
+

@@ -1,0 +1,42 @@
+--- 
+title: "Data Visualization with PowerBI"
+author: "Mohamed Kassem"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: Mkassem16/NycTaxiPBI
+description: "This course is intended for educational puposes & preparing Data analysts for Exam DA-100: Analyzing Data with Microsoft Power BI : Creating reports"
+---
+
+# Intorduction
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+This course is intended for educational purposes & preparing Data analysts for Exam DA-100: Analyzing Data with Microsoft Power BI : **Creating reports**
+
+- All the needed resources to follow along can be found here <https://github.com/Mkassem16/NycTaxiPBI>.
+
+- Creating basic PowerBI reports knowledge is prerequisite for this course. 
+
+**By the end of this course Data Analysts should be able to:**         
+ + Customize Report pages.   
+ + Decide for appropriate visualizations type.   
+ + To utilize PowerBI native visualizations.   
+ + Format and configure PowerBI native visuals.    
+ + Configure conditional formatting.    
+ + Import their own custom R or Python Visuals.   
+ + Utilize Slicers and Filters.    
+ + Adjust visuals for accessibility.    
+ + Configure automatic page refresh.    
+ + Create paginated reports.    
+ 
+

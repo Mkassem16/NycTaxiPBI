@@ -1,0 +1,22 @@
+# Setting and Objectives
+
+
+## Setting
+The New York City Taxi and Limousine Commission (TLC), created in 1971, is the agency responsible for licensing and regulating New York City's Medallion (Yellow) taxi cabs. Over 200,000 TLC licensees complete approximately 1,000,000 trips each day.
+
+For the sake of educational purposes Data Analysts should think of an Imaginary situation where NYC TLC has asked them to prepare a PowerBI report for their c-suite executives and decision managers to better under stand their monthly operations in general and track their daily and monthly KPIs. 
+
+
+## Objectives
+### General
+* Creating an easy to read and understand descriptive dashboard.
+* Quick one look dynamic status updates.
+* Tracking daily and weekly KPIs.
+* Understanding revenue breakdown.    
+
+### Requested      
+* Is there a specific day of week that  NYC TLC should deploy more licensees?
+* Is there a specific time of day that  NYC TLC should deploy more licensees?     
+
+### Extra    
+* Mining for relations between trip duration, distance and fare.

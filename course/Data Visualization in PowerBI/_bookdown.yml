@@ -1,0 +1,5 @@
+book_filename: "Data visualization with PowerBI"
+language:
+  ui:
+    chapter_name: "Section "
+delete_merged_file: true
