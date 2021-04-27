@@ -1,4 +1,4 @@
-# NYC Yellow Taxi - PoweBI Dashboard
+# Data Visualization with PowerBI Course & Dashboard
 
 ### This dashboard is intended for educational puposes & preparing Data analysts for Exam DA-100: Analyzing Data with Microsoft Power BI      
 
