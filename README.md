@@ -16,5 +16,4 @@
 
 
 
-![Course](https://bookdown.org/moh_aymang/data_visualization_powerbi/)
 
